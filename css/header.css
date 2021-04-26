@@ -51,9 +51,11 @@ header .overlay {
 @media (pointer: coarse) and (hover: none) {
   header {
     background: url('https://github.com/alorozco22/anderersinn/blob/master/img/header.jpeg?raw=true');
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
+    position: absolute;
+    animation: myanimation 10s infinite;
   }
   header video {
     display: none;
@@ -61,5 +63,9 @@ header .overlay {
   .header-logo {
     width: 90%;
   }
+}
+
+@keyframes myanimation{
+  50%{background-position: left;}
 }
 
