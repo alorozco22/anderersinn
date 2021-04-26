@@ -54,7 +54,9 @@ header .overlay {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /*animation: mymove 30s infinite;*/
+    
+    animation:myanim 0.5s;
+    -webkit-animation:myanim 0.5s;
   }
   header video {
     display: none;
@@ -63,8 +65,29 @@ header .overlay {
     width: 90%;
   }
 }
-/**
-@keyframes mymove {
-    50% {background-position: left center;}
-  }*/
 
+@keyframes myanim {
+    0% {
+        background-position:0 0;
+    }
+    50% {
+        background-position:20px 0;
+    }
+    100% {
+        background-position:0 0;
+    }
+}
+
+@-webkit-keyframes myanim
+/** Safari and Chrome **/
+ {
+    0% {
+        background-position:0 0;
+    }
+    50% {
+        background-position:20px 0;
+    }
+    100% {
+        background-position:0 0;
+    }
+}
