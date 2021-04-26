@@ -55,8 +55,8 @@ header .overlay {
     background-repeat: no-repeat;
     background-size: cover;
     
-    animation:myanim 0.5s;
-    -webkit-animation:myanim 0.5s;
+    animation:myanim 10s;
+    -webkit-animation:myanim 10s;
   }
   header video {
     display: none;
