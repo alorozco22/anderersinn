@@ -59,6 +59,7 @@ header .overlay {
   .head-img {
     z-index: 2;
     position: absolute;
+    height:100vh;
   }
 
   header video {
