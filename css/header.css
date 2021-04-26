@@ -53,7 +53,7 @@ header .overlay {
     background: url('https://github.com/alorozco22/anderersinn/blob/master/img/header.jpeg?raw=true');
     background-position: right;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 40%;
     animation:myanim 0.5s;
     -webkit-animation:myanim 0.5s infinite;
     
