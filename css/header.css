@@ -41,9 +41,13 @@ header .overlay {
 .header-logo {
   width: 30%;
 }
+.head-img {
+  display: none;
+}
 
 @media only screen and (max-width: 1000px) {
   .header-logo {
+    z-index: 3;
     width: 50%;
   }
 }
@@ -60,7 +64,7 @@ header .overlay {
     z-index: 0;
     position: absolute;
     height:100vh;
-    object-fit: cover;
+    display: block;
   }
 
   header video {
