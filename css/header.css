@@ -49,16 +49,18 @@ header .overlay {
 }
 
 @media (pointer: coarse) and (hover: none) {
-  header .container {
-    position: absolute;
-  }
+
   header {
-    background: url('https://github.com/alorozco22/anderersinn/blob/master/img/header.jpeg?raw=true');
+    background: none;
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
-    animation: myanimation 10s infinite;
   }
+  .head-img {
+    z-index: 2;
+    position: absolute;
+  }
+
   header video {
     display: none;
   }
