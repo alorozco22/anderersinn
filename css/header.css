@@ -68,8 +68,3 @@ header .overlay {
     width: 90%;
   }
 }
-
-@keyframes myanimation{
-  50%{background-position: left;}
-}
-
