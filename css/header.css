@@ -51,7 +51,7 @@ header .overlay {
 @media (pointer: coarse) and (hover: none) {
   header {
     background: url('https://github.com/alorozco22/anderersinn/blob/master/img/header.jpeg?raw=true') black scroll;
-    background-position: right center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     animation: mymove 30s infinite;
@@ -65,6 +65,6 @@ header .overlay {
 }
 
 @keyframes mymove {
-    50% {background-position: left center;}
+    50% {background-position: center right;}
   }
 
