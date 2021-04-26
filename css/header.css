@@ -54,6 +54,8 @@ header .overlay {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    animation:myanim 0.5s;
+    -webkit-animation:myanim 0.5s infinite;
     
   }
   header video {
@@ -63,3 +65,23 @@ header .overlay {
     width: 90%;
   }
 }
+
+
+@keyframes myanim {
+
+    50% {
+        background-position:20px 0;
+    }
+
+}
+
+@-webkit-keyframes myanim
+/* Safari and Chrome */
+ {
+   
+    50% {
+        background-position:20px 0;
+    }
+}
+
+
