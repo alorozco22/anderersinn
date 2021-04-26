@@ -50,13 +50,11 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('https://github.com/alorozco22/anderersinn/blob/master/img/header.jpeg?raw=true') black scroll;
+    background: url('https://github.com/alorozco22/anderersinn/blob/master/img/header.jpeg?raw=true');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     
-    animation:myanim 10s;
-    -webkit-animation:myanim 10s;
   }
   header video {
     display: none;
@@ -64,30 +62,4 @@ header .overlay {
   .header-logo {
     width: 90%;
   }
-}
-
-@keyframes myanim {
-    0% {
-        background-position:0 0;
-    }
-    50% {
-        background-position:20px 0;
-    }
-    100% {
-        background-position:0 0;
-    }
-}
-
-@-webkit-keyframes myanim
-/** Safari and Chrome **/
- {
-    0% {
-        background-position:0 0;
-    }
-    50% {
-        background-position:20px 0;
-    }
-    100% {
-        background-position:0 0;
-    }
 }
