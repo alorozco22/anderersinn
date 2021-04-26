@@ -51,9 +51,9 @@ header .overlay {
 @media (pointer: coarse) and (hover: none) {
   header {
     background: url('https://github.com/alorozco22/anderersinn/blob/master/img/header.jpeg?raw=true');
-    background-position: right;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: cover;
     animation:myanim 0.5s;
     -webkit-animation:myanim 0.5s infinite;
     
@@ -65,23 +65,4 @@ header .overlay {
     width: 90%;
   }
 }
-
-
-@keyframes myanim {
-
-    50% {
-        background-position:left;
-    }
-
-}
-
-@-webkit-keyframes myanim
-/* Safari and Chrome */
- {
-   
-    50% {
-        background-position:left;
-    }
-}
-
 
