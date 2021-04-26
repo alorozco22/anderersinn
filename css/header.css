@@ -54,6 +54,10 @@ header .overlay {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    animation: mymove 15s infinite;
+  }
+  @keyframes mymove {
+    10% {background-position: center;}
   }
   header video {
     display: none;
