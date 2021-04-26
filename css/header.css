@@ -60,6 +60,7 @@ header .overlay {
     z-index: 0;
     position: absolute;
     height:100vh;
+    object-fit: cover;
   }
 
   header video {
