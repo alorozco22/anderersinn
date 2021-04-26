@@ -45,7 +45,7 @@ header .overlay {
 @media (pointer: coarse) and (hover: none) {
   header {
     background: url('https://github.com/alorozco22/anderersinn/blob/master/img/header.jpeg?raw=true') black no-repeat center center scroll;
-    background-size: 100%;
+    background-size: auto 100%;
   }
   header video {
     display: none;
