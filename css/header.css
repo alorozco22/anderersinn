@@ -54,7 +54,6 @@ header .overlay {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 50%;
   }
   header video {
     display: none;
