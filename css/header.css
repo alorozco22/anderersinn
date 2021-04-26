@@ -51,7 +51,7 @@ header .overlay {
 @media (pointer: coarse) and (hover: none) {
   header {
     background: url('https://github.com/alorozco22/anderersinn/blob/master/img/header.jpeg?raw=true') black scroll;
-    background-position: left center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
