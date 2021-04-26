@@ -51,7 +51,7 @@ header .overlay {
 @media (pointer: coarse) and (hover: none) {
   header {
     background: url('https://github.com/alorozco22/anderersinn/blob/master/img/header.jpeg?raw=true');
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     animation:myanim 0.5s;
@@ -70,7 +70,7 @@ header .overlay {
 @keyframes myanim {
 
     50% {
-        background-position:20px 0;
+        background-position:left;
     }
 
 }
@@ -80,7 +80,7 @@ header .overlay {
  {
    
     50% {
-        background-position:20px 0;
+        background-position:left;
     }
 }
 
