@@ -52,6 +52,7 @@ header .overlay {
   }
 }
 
+/* Phones */
 @media (pointer: coarse) and (hover: none) {
 
   header {
@@ -60,12 +61,17 @@ header .overlay {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  
   .head-img {
     z-index: 0;
     position: absolute;
     height:100vh;
     display: block;
+    left:-100px;
+    animation: move 45s infinite;
   }
+
+
 
   header video {
     display: none;
@@ -74,3 +80,16 @@ header .overlay {
     width: 90%;
   }
 }
+
+
+
+@keyframes move {
+    50%  {left: -500px;}
+}
+@-moz-keyframes move{
+    50%  {left: -500px;}
+}
+@-webkit-keyframes move{
+    50%  {left: -500px;}
+}​
+
