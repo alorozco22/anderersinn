@@ -29,3 +29,13 @@ function curioso() {
 function noblog(){
 	alert('Próximamente.');
 }
+
+function reiniciarc(){
+	$('.carousel').carousel(0);
+}
+function backc(){
+	$('.carousel').carousel('prev');
+}
+function nextc(){
+	$('.carousel').carousel('next');
+}
