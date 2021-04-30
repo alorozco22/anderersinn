@@ -25,3 +25,7 @@ function sostenible() {
 function curioso() {
 	document.getElementById('principio').innerHTML = "Aprender es uno de los grandes placeres del diseño. Todo proyecto sigue una estrategia pedagógica por medio de Aprendizaje Basado en Proyectos para entrenar las competencias del equipo. Se adquieren progresivas responsabilidades también."
 }
+
+function noblog(){
+	alert('Próximamente.');
+}
