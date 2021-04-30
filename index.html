@@ -26,6 +26,7 @@
 
 	<!-- Navigation collapse -->
 	<script src="./js/navigation.js"></script>
+	<script src="./js/principles.js"></script>
 
 	<!-- Google icons -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -103,6 +104,23 @@
 	</style>
 
 
+	<style>
+		.parallax4 {
+		  /* The image used */
+		  background-image: url("https://github.com/alorozco22/anderersinn/blob/master/img/momm.jpg?raw=true");
+		  
+		  /* Set a specific height */
+		  min-height: 200px;
+
+		  /* Create the parallax scrolling effect */
+		  background-attachment: fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		}
+	</style>
+
+
 
 	
 
@@ -146,9 +164,9 @@
 	    <li class="nav-item">
 	      <a class="nav-link" href="#phylo">&#183; Filosofía &#183;</a>
 	    </li>
-	    <!--li class="nav-item">
+	    <li class="nav-item">
 	      <a class="nav-link" href="#">&#183; Principios &#183;</a>
-	    </li-->
+	    </li>
 	    
 	    <li class="nav-item">
 	      <a class="nav-link" href="#">&#183; Covid SOS &#183;</a>
@@ -197,8 +215,29 @@
 	    <div class="row">
 	      <div class="col-md-8 mx-auto">
 	      	<h1 style="font-family: 'Bodoni Moda', serif;" >Consultoría de innovación</h1>
-	        <p>Para 
-	        </p>
+	        <p>Para promover el crecimiento significativo empleamos dos conjuntos de herramientas</p>
+	        <div class="row">
+	        	<div class="col-md-6">
+	        		<h2>Decisiones orientadas en datos</h2>
+			        <ul><li>Desarrollo de analítica de mercado</li>
+			        <li>Experimentos y pruebas A/B</li>
+			    	<li>Inteligencia artificial</li></ul>
+	        	</div>
+	        	<div class="col-md-6"></div>
+	        </div>
+
+	        <div class="row">
+	        	<div class="col-md-6">
+	        		
+	        	</div>
+	        	<div class="col-md-6">
+	        		<h2>Diseño centroado en humanos</h2>
+			        <ul><li>Diseño de talleres de campo</li>
+			        <li>Interacción con las comunidades</li>
+			    	<li>Prototipado secuencial y validado</li></ul>
+	        	</div>
+	        </div>
+	        
 	      </div>
 	    </div>
 	  </div>
@@ -223,6 +262,46 @@
 	</section>
 
 	<div class="parallax3"></div>
+
+
+	<section id="princ" class="my-5">
+	  <div class="container">
+	    <div class="row">
+	      <div class="col-md-8 mx-auto">
+	      	<h1 style="font-family: 'Bodoni Moda', serif;" >Principios</h1>
+	        <p>Todo proyecto de diseño en Anderer Sinn sigue los siguientes principios:</p>
+	        <div class="row">
+	        	<div class="col-md-5">
+	        		<ul>
+			        	<li><a class="text-dark" onclick="cuidamos()" href="#princ"><b>Cuidamos a las personas</b></a></li>
+
+			        	<li><a class="text-dark" onclick="interd()" href="#princ"><b>Interdisciplinariedad</b></a></li>
+
+			        	<li><a class="text-dark" onclick="intuicion()" href="#princ"><b>Intuición y estado de juego</b></a></li>
+
+			        	<li><a class="text-dark" onclick="colaboracion()" href="#princ"><b>Colaboración</b></a></li>
+
+			        	<li><a class="text-dark" onclick="divulga()" href="#princ"><b>Divulgación y comunidad</b></a></li>
+
+			        	<li><a class="text-dark" onclick="sostenible()" href="#princ"><b>Sostenibilidad</b></a></li>
+
+			        	<li><a class="text-dark" onclick="curioso()" href="#princ"><b>Curiosidad y aprendizaje</b></a></li>
+
+			        </ul>
+	        	</div>
+
+	        	<div class="col-md-7">
+	        		<p id="principio"></p>
+	        	</div>
+	        </div>
+	        
+	      </div>
+	    </div>
+	  </div>
+	</section>
+
+	<div class="parallax4"></div>
+	
 
 	<section id="phylo" class="my-5">
 	  <div class="container">
@@ -325,7 +404,14 @@
 						<a style="text-decoration: none; margin: 15px;" href="#" class="material-icons md-light md-48 fa fa-instagram"></a>
 						<a style="text-decoration: none; margin: 15px;" href="#" class="material-icons md-light md-48 fa fa-linkedin"></a>
 						<br>
-						<small class="text-muted">Las fotografías por <a class="text-muted" href="https://unsplash.com/@thanospal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Thanos Pal</a>, <a class="text-muted" href="https://unsplash.com/@productschool?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Product School</a> y <a class="text-muted" href="https://unsplash.com/@antenna?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Antenna</a> en <a class="text-muted" href="https://unsplash.com/s/photos/talk-group?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>. Video por <a href="https://www.pexels.com/@pressmaster?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_blank" class="text-muted">Pressmaster</a> en <a href="https://www.pexels.com/photo/group-of-business-people-having-a-meeting-3191248/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_blank" class="text-muted">Pexels</a></small>
+						<small class="text-muted">Las fotografías por <a class="text-muted" href="https://unsplash.com/@thanospal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Thanos Pal</a>, <a class="text-muted" href="https://unsplash.com/@productschool?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Product School</a>, <a class="text-muted" href="https://unsplash.com/@antenna?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Antenna</a> y <a href="https://unsplash.com/@scoutthecity?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" class="text-muted">Sai De Silva</a>
+
+
+							en <a class="text-muted" href="https://unsplash.com/s/photos/talk-group?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>. 
+
+
+
+							Video por <a href="https://www.pexels.com/@pressmaster?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_blank" class="text-muted">Pressmaster</a> en <a href="https://www.pexels.com/photo/group-of-business-people-having-a-meeting-3191248/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_blank" class="text-muted">Pexels</a></small>
 					
 				</div>
 				<div class="col-sm-12 col-md-1"></div>
