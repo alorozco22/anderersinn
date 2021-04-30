@@ -45,6 +45,29 @@
     font-family: 'Bodoni Moda', serif; -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap" rel="stylesheet">
+
+	<!-- viewport checker -->
+	<script src="./js/check-view.js"></script>
+
+
+	<style>
+		.parallax {
+		  /* The image used */
+		  background-image: url("img_parallax.jpg");
+
+		  /* Set a specific height */
+		  min-height: 500px;
+
+		  /* Create the parallax scrolling effect */
+		  background-attachment: fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		}
+	</style>
+
+	
+
 </head>
 <body>
 
@@ -119,25 +142,18 @@
 	    <div class="row">
 	      <div class="col-md-8 mx-auto">
 	      	<h1 style="font-family: 'Bodoni Moda', serif;" >Diseño y Desarrollo Web</h1>
-	        <p>Desarrollamos tecnología cuando puede servir </p>
-	        <p>The overlay color can be changed by changing the <code>background-color</code> of the <code>.overlay</code> class in the CSS.</p>
-	        <p>Set the mobile fallback image in the CSS by changing the background image of the header element within the media query at the bottom of the CSS snippet.</p>
-	        <p class="mb-0">
-	          Created by <a href="https://startbootstrap.com">Start Bootstrap</a>
-	        </p>
+	        <p>Creamos cosas.</p>
+	        <p>Contamos con las herramientas técnicas para desarrollar tecnología relevante y significativa en cada situación. Tenemos la capacidad de ir más allá de lo común e incluso prototipar con hardware.</p>
+	        <p>Observe <a href="https://www.alfredo-orozco.co/lab" target="_blank">este portafolio</a> para hacerse a una idea de nuestra experiencia.</p>
 	      </div>
 	    </div>
 	  </div>
 	</section>
 
+
+
 	<section class="my-5 bg-warning">
-	  <div class="container">
-	    <div class="row">
-	      <div class="col-md-8 mx-auto">
-	      	<p>Here will be a paralax</p>
-	      </div>
-	    </div>
-	  </div>
+	  <div class="parallax"></div>
 	</section>
 
 	<section id="consulting" class="my-5">
