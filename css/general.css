@@ -1,4 +1,4 @@
-.fa {
+/*.fa {
   padding: 20px;
   width: 30px;
   text-align: center;
@@ -9,5 +9,10 @@
 
 .fa:hover {
     opacity: 0.7;
+}*/
+
+.my-5 {
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 
