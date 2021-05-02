@@ -25,11 +25,13 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 	<!-- Navigation collapse -->
-	<script src="./js/navigation.js"></script>
 	<script src="./js/principles.js"></script>
+	<script src="./js/navigation.js"></script>
+	
 
 	<!-- Google icons -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
 
 	<!-- Add icon library -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -47,8 +49,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap" rel="stylesheet">
 
-	<!-- viewport checker -->
-	<script src="./js/check-view.js"></script>
+	
 
 
 	<style>
@@ -303,90 +304,86 @@
 	<div class="parallax4"></div>
 	
 
-	<section id="phylo" class="my-5">
+	<section id="phylo" style="min-height: 100vh"class="my-5">
 	  <div class="container">
-	    <div class="row">
-	      <div class="col-md-8 mx-auto">
-	      	
 
-	      	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-			  <ol class="carousel-indicators">
-			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
-			  </ol>
-			  <div class="carousel-inner">
-			    <div class="carousel-item active">
-			      <img class="d-block w-100" src="./img/s1.png" alt="First slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="./img/s2.png" alt="Second slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="./img/s3.png" alt="Third slide">
-			    </div>
-			    <div class="carousel-item ">
-			      <img class="d-block w-100" src="./img/s4.png" alt="Fourth slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="./img/s5.png" alt="Fifth slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="./img/s6.png" alt="Sixth slide">
-			    </div>
-			    <div class="carousel-item ">
-			      <img class="d-block w-100" src="./img/s7.png" alt="Seventh slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="./img/s8.png" alt="Eighth slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="./img/s9.png" alt="Nineth slide">
-			    </div>
-			    <div class="carousel-item ">
-			      <img class="d-block w-100" src="./img/s10.png" alt="Tenth slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="./img/s11.png" alt="Eleventh slide">
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="./img/s12.png" alt="Twelfth slide">
-			    </div>
-			  </div>
-			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Previous</span>
-			  </a>
-			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Next</span>
-			  </a>
+	  	<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+
+				<div class="row" style="margin-bottom: 30px;">
+					<div class="col-4">
+						<a style="float:right;" onclick="backph()" href="#phylo"><span id="rotate180" class="material-icons-outlined material-icons md-dark md-48">arrow_right_alt</span></a>
+					</div>
+					<div class="col-4">
+						
+					</div>
+					<div class="col-4">
+						<a onclick="nextph()" href="#phylo"><span class="material-icons-outlined material-icons md-dark md-48">arrow_right_alt</span></a>
+					</div>
+				</div>
+
+				<h1 class="ph1 text-center">Cómo entendemos al diseño</h1>
+
+				<h2 class="ph2 ph3 ph4 ph5 ph6 ph7 ph8 ph9 ph10 ph11 ph12">Nuestro manifiesto</h2>
+				
+				<div class="row">
+					<div class="col-md-6">
+						
+						
+
+						
+						<p class="ph2">Por accidente o por determinación, en el universo aparecen <span class="ph2 ph-emphasis">nuevos objetos</span> ocasionalmente. Una variación de una receta, una secuencia de sonidos, un relieve, una frase comunicada y un hábito son ejemplos de objetos que empiezan a existir de repente.</p>
+
+						<p class="ph3 ph-invisible">Por accidente o por determinación, en el universo aparecen <span class="ph3 ph-emphasis">nuevos objetos</span> ocasionalmente. Una variación de una receta, una secuencia de sonidos, un relieve, una frase comunicada y un hábito son ejemplos de objetos que empiezan a existir de repente.</p>
+						<p class="ph3">Consciente o automáticamente, las personas <span class="ph3 ph-emphasis">atribuyen significado</span> a las creaciones.</p>
+
+
+						<p class="ph4 ph-invisible">Por accidente o por determinación, en el universo aparecen <span class="ph4 ph-emphasis">nuevos objetos</span> ocasionalmente. Una variación de una receta, una secuencia de sonidos, un relieve, una frase comunicada y un hábito son ejemplos de objetos que empiezan a existir de repente.</p>
+						<p class="ph4">Consciente o automáticamente, las personas <span class="ph4 ph-emphasis">atribuyen significado</span> a las creaciones.</p>
+
+						
+						<p class="ph7">Diseñar en Anderer Sinn es <span class="ph7 ph-emphasis">navegar</span> a profundidad por los significados de las personas …</p>
+
+						<p class="ph8">Diseñar en Anderer Sinn es <span class="ph8 ph-emphasis">navegar</span> a profundidad por los significados de las personas hasta encontrar ventanas tecnológicas …</p>
+
+						<p class="ph9">Diseñar en Anderer Sinn es <span class="ph9 ph-emphasis">navegar</span> a profundidad por los significados de las personas hasta encontrar ventanas tecnológicas que <span class="ph9 ph-emphasis">orgánicamente</span> permitan propiciar oportunidades de <span class="ph9 ph-emphasis">interacción significativa</span> con las creaciones.</p>
+
+						<p class="ph10">Diseñar en Anderer Sinn es <span class="ph10 ph-emphasis">navegar</span> a profundidad por los significados de las personas hasta encontrar ventanas tecnológicas que <span class="ph10 ph-emphasis">orgánicamente</span> permitan propiciar oportunidades de <span class="ph10 ph-emphasis">interacción significativa</span> con las creaciones. En muchas ocasiones, las interacciones significativas tienen la forma de soluciones a un problema, pero pueden ser cualquier tipo de experiencias.</p>
+
+						<p class="ph12 ph-invisible">Diseñar en Anderer Sinn es <span class="ph12 ph-emphasis">navegar</span> a profundidad por los significados de las personas hasta encontrar ventanas tecnológicas que <span class="ph12 ph-emphasis">orgánicamente</span> permitan propiciar oportunidades de <span class="ph12 ph-emphasis">interacción significativa</span> con las creaciones. En muchas ocasiones, las interacciones significativas tienen la forma de soluciones a un problema, pero pueden ser cualquier tipo de experiencias.</p>
+
+						<p class="ph12"><span class="ph12 ph-emphasis">Note</span> que si, por ejemplo, una persona significa al mundo a partir de la estadística, para diseñar en sus términos es necesario tener dominio de la estadística.</p>
+						
+					</div>
+
+					<div class="col-md-6">
+						
+						<p class="ph4">Estos significados <span class="ph4 ph-emphasis">modifican</span> las actitudes, comportamientos y emociones de <span class="ph4 ph-emphasis">los individuos</span>.</p>
+
+
+						<p class="ph5 ph-invisible">Estos significados <span class="ph5 ph-emphasis">modifican</span> las actitudes, comportamientos y emociones de <span class="ph5 ph-emphasis">los individuos</span>.</p>
+						<p class="ph5">Los sistemas cambian tras la creación de objetos.</p>
+
+
+						<p class="ph6 ph-invisible">Estos significados <span class="ph6 ph-emphasis">modifican</span> las actitudes, comportamientos y emociones de <span class="ph6 ph-emphasis">los individuos</span>.</p>
+						<p class="ph6">Los sistemas cambian tras la creación de objetos.</p>
+						<p class="ph6">Para llegar a ser, una idea es evaluada, <span class="ph6 ph-emphasis">desde sus significados</span>, por todos los miembros en un equipo.</p>
+
+						<p class="ph11"><span class="ph11 ph-emphasis">Aprendemos</span> y ajustamos tanto nuestras creaciones como nuestros <span class="ph11 ph-emphasis">mapas</span> sobre las personas, con cada iteración. Una persona no es la misma cuando inicia un proyecto de diseño y cuando lo termina; crece con el proceso.</p>
+
+
+
+					</div>
+				</div>
+				
+
+
 			</div>
+			<div class="col-md-2"></div>
+		</div>
 
-
-			<div class="row">
-				<div class="col-4">
-					<a class="text-dark" onclick="backc()" href="#phylo">Atrás</a>
-				</div>
-				<div class="col-4">
-					<a class="text-dark" onclick="reiniciarc()" href="#phylo">Reinciar historia</a>
-				</div>
-				<div class="col-4">
-					<a class="text-dark" onclick="nextc()" href="#phylo">Sig.</a>
-				</div>
-			</div>
-
-	      </div>
+	    
 	    </div>
 	  </div>
 	</section>

@@ -39,3 +39,100 @@ function backc(){
 function nextc(){
 	$('.carousel').carousel('next');
 }
+
+
+/* New principles section */
+let slide = ['ph1', 'ph2' , 'ph3', 'ph4', 'ph5', 'ph6', 'ph7', 'ph8', 'ph9', 'ph10', 'ph11', 'ph12'];
+// Inicializamos el índice phI = 12 en navigation.js que se carga después
+
+function nextph(){
+	if (phI == 11){
+		// Si llegamos a la última slide, reiniciar ínidice
+		phI = 0;
+	} else {
+		// si no hemos llegado a la última, solo sumarle
+		phI = phI + 1;
+	}
+
+	// Ocultamos todos los elementos
+	let elementosFilo = document.querySelectorAll("[class^=ph]");
+	let elementosActuales = document.getElementsByClassName(slide[phI]);
+	
+	for (let i = elementosFilo.length - 1; i >= 0; i--) {
+		// para todos los elementos de la diapositiva actual mostrar
+		elementosFilo[i].style.display = 'none';
+
+	}
+
+	// Cargamos elementos que sí son
+	for (let i = elementosActuales.length - 1; i >= 0; i--) {
+		// para todos los elementos de la diapositiva actual mostrar
+		elementosActuales[i].style.display = 'block';
+	}
+
+	let elementosEnfasis = document.getElementsByClassName('ph-emphasis');
+	// Todos los ph-emphasis que estén block se cambian a inline
+	for (let i = elementosEnfasis.length - 1; i >= 0; i--) {
+		// para todos los elementos de la diapositiva actual mostrar
+		if(elementosEnfasis[i].style.display == 'block'){
+			elementosEnfasis[i].style.display = 'inline';
+		}
+	}	
+
+}
+
+function backph(){
+	if (phI == 0){
+		// Si llegamos a la primera slide, reiniciar ínidice
+		phI = 11;
+	} else {
+		// si no hemos llegado a la última, solo restarle
+		phI = phI - 1;
+	}
+
+	// Ocultamos todos los elementos
+	let elementosFilo = document.querySelectorAll("[class^=ph]");
+	let elementosActuales = document.getElementsByClassName(slide[phI]);
+	
+	for (let i = elementosFilo.length - 1; i >= 0; i--) {
+		// para todos los elementos de la diapositiva actual mostrar
+		elementosFilo[i].style.display = 'none';
+
+	}
+
+	// Cargamos elementos que sí son
+	for (let i = elementosActuales.length - 1; i >= 0; i--) {
+		// para todos los elementos de la diapositiva actual mostrar
+		elementosActuales[i].style.display = 'block';
+	}
+
+	let elementosEnfasis = document.getElementsByClassName('ph-emphasis');
+	// Todos los ph-emphasis que estén block se cambian a inline
+	for (let i = elementosEnfasis.length - 1; i >= 0; i--) {
+		// para todos los elementos de la diapositiva actual mostrar
+		if(elementosEnfasis[i].style.display == 'block'){
+			elementosEnfasis[i].style.display = 'inline';
+		}
+	}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
