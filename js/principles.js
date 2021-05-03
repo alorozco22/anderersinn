@@ -1,29 +1,29 @@
 function cuidamos() {
-	document.getElementById('principio').innerHTML = "Nos importa lo que para las personas es importante. Procuramos apropiarnos de sus intereses y hacer transiciones significativas desde el momento inicial hasta el diseño final."
+	document.getElementById('principio').innerHTML = "<span class='ph-emphasis'>Nos importa lo que para las personas es importante</span>. Procuramos apropiarnos de sus valores y hacer transiciones significativas desde el momento inicial hasta el diseño final."
 }
 
 function interd() {
-	document.getElementById('principio').innerHTML = "La creación de nuevos objetos amerita entender los procesos desde todas sus dimensiones. La tecnología que se desarrolla debe ser coherente con esto."
+	document.getElementById('principio').innerHTML = "La creación de nuevos objetos amerita <span class='ph-emphasis'>entender los procesos desde todas sus dimensiones</span>. La tecnología que se desarrolla debe ser coherente con esto."
 }
 
 function intuicion() {
-	document.getElementById('principio').innerHTML = "Diseñar requiere navegar entre las formas concretas y las intuiciones informales continuamente. Un/a diseñador/a debe sentirse cómodo/a modelando en ambos contextos."
+	document.getElementById('principio').innerHTML = "Diseñar requiere <span class='ph-emphasis'>navegar entre las formas concretas y las intuiciones informales</span> continuamente. Un/a diseñador/a debe sentirse cómodo/a modelando en ambos contextos."
 }
 
 function colaboracion() {
-	document.getElementById('principio').innerHTML = "Expandimos las posibilidades individuales mediante la colaboración. Hacemos preguntas entre nuestros equipos y a otras personas todo el tiempo. Disfrutamos colaborar con otras organizaciones y con las personas con quienes compartimos."
+	document.getElementById('principio').innerHTML = "<span class='ph-emphasis'>Expandimos las posibilidades individuales mediante la colaboración</span>. Hacemos preguntas entre nuestros equipos y a otras personas todo el tiempo. Disfrutamos colaborar con otras organizaciones y con las personas con quienes compartimos."
 }
 
 function divulga() {
-	document.getElementById('principio').innerHTML = "Los diseños no existen para ser abandonados en una isla, se crean para ser comunicados y utilizados entre las personas. Los diseños conectan a la gente porque tratan sobre lo que creemos y lo que somos."
+	document.getElementById('principio').innerHTML = "Los diseños no existen para ser abandonados en una isla, se crean para ser comunicados y utilizados entre las personas. <span class='ph-emphasis'>Los diseños conectan a la gente</span> porque tratan sobre lo que creemos y lo que somos."
 }
 
 function sostenible() {
-	document.getElementById('principio').innerHTML = "Tenemos hasta 2050 para reducir las emisiones de carbono a cero. Nuestros proyectos deben esforzarse por tener un impacto ambiental positivo o neutral. Además, nuestros diseños son financieramente autosostenibles."
+	document.getElementById('principio').innerHTML = "Tenemos hasta 2050 para reducir las emisiones de carbono a cero. Nuestros proyectos deben esforzarse por tener un <span class='ph-emphasis'>impacto ambiental positivo o neutral</span>. Además, nuestros diseños son financieramente <span class='ph-emphasis'>autosostenibles</span>."
 }
 
 function curioso() {
-	document.getElementById('principio').innerHTML = "Aprender es uno de los grandes placeres del diseño. Todo proyecto sigue una estrategia pedagógica por medio de Aprendizaje Basado en Proyectos para entrenar las competencias del equipo. Se adquieren progresivas responsabilidades también."
+	document.getElementById('principio').innerHTML = "<span class='ph-emphasis'>Aprender es uno de los grandes placeres del diseño</span>. Todo proyecto sigue una estrategia pedagógica por medio de Aprendizaje Basado en Proyectos para entrenar las competencias del equipo. Se adquieren progresivas responsabilidades también."
 }
 
 function noblog(){
