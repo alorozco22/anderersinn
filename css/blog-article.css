@@ -1,0 +1,68 @@
+.icon-bar {
+  position: fixed;
+  top: 30%;
+  display: block;
+  
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  
+}
+
+/* Smaller than medium */
+@media (max-width: 767px) {
+
+	.blog-tit {
+		margin-top: 2em;
+		position: relative;
+		line-height: 1.5em;
+	}
+	.icon-bar {
+	  display: none;
+	}
+	.icon-bar-mobile{
+		display: block;
+		width: 70%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+}
+/* Bigger than medium */
+@media (min-width: 768px) {
+	.icon-bar-mobile{
+		display: none;
+	}
+	.blog-tit {
+		position: absolute; 
+		bottom: 0; 
+		line-height: 1.5em;
+	}
+
+}
+
+.blog-content div div div p{
+	line-height: 2.5em;
+	margin-top:2em;
+	margin-bottom:2em;
+
+}
+.blog-content div div div li {
+	line-height: 2.5em;			
+	margin-bottom:1.5em;
+}
+
+.nav-blog {
+	line-height: 1.5em;
+}
+
+td,th {
+	padding: 1em;
+}
+

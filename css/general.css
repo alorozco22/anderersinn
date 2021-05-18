@@ -29,7 +29,13 @@ h2 {
 /*h3*/
 h3 {
   font-family: 'Bodoni Moda', serif;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  margin-top:1em;
+}
+
+h4 {
+  font-family: 'Bodoni Moda', serif;
+  margin-bottom: 10px;
 }
 
 .ph-emphasis {
@@ -41,6 +47,28 @@ h3 {
 	color: rgba(0, 0, 0, 0.0);
 }
 
+p {
+  line-height: 2.5em;
+}
+
+.ph1, .ph2, .ph3, .ph4, .ph5, .ph6, .ph7, .ph8, .ph9, .ph10, .ph11, .ph12 {
+  line-height: 1.5em;
+}
+
+.li-principios {
+   line-height: 2.5em;
+}
+
+/* Smaller than medium */
+@media (max-width: 767px) {
+
+ 
+  .li-principios {
+   line-height: 1.5em;
+  }
+
+}
+
 
 #rotate180 {
 	transform: rotate(180deg);
@@ -50,3 +78,4 @@ h3 {
     -webkit-transform: rotate(180deg);
     display: inline-block;
 }
+

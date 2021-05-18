@@ -1,0 +1,56 @@
+
+/* unvisited link */
+.article-link:link {
+  color: #343a40;
+  text-decoration: none;
+}
+
+/* visited link */
+.article-link:visited {
+  color: #343a40;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.article-link:hover {
+  color: #343a40;
+  text-decoration: none;
+}
+
+/* selected link */
+.article-link:active {
+  color: #343a40;
+  text-decoration: none;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* unvisited link */
+.cate-link:link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* visited link */
+.cate-link:visited {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.cate-link:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* selected link */
+.cate-link:active {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.card {
+	width: 18rem; border: 0px; margin: 0 auto;margin-top:1em; margin-bottom: 1em;
+}
