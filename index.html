@@ -35,9 +35,10 @@
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-	<!-- Navigation collapse -->
+	<!-- Navigation collapse and consulting -->
 	<script src="./js/principles.js"></script>
 	<script src="./js/navigation.js"></script>
+
 	
 
 	<!-- Google icons -->
@@ -251,47 +252,58 @@
 	  <div class="container">
 	    <div class="row">
 	      <div class="col-md-8 mx-auto">
-	      	<h1 style="font-family: 'Bodoni Moda', serif; margin-bottom: 1em;" >Toda organización debe reinventarse en algún momento</h1>
+	      	<h1 style="font-family: 'Bodoni Moda', serif; margin-bottom: 1em;" >Para cualquier organización crecer involucra innovar.</h1>
 	        
-	        <p>Pero reinventarse de afán suele ser traumático. Cuidamos a las personas facilitando la innovación. Trabajamos con versatilidad creativa <b>en el lenguaje y desde los valores</b> de nuestros clientes. En Anderer Sinn hacemos orgánico el cambio.</p>
-	        <div class="row">
+	        <p>En el camino, emplear eficazmente las herramientas requiere estrategia y personas capacitadas. Sin embargo, innovar de afán puede ser traumático. En <i>Anderer Sinn</i> cuidamos a las personas facilitando la <b>innovación especializada y relevante</b>. Lo que hacemos incluye a:</p>
+	        <hr>
+	        <div class="row" id="educ">
 	        	<div class="col-md-6">
-	        		<h3>Decisiones orientadas por datos</h3>
-			        <ul><li>Desarrollo de analítica de mercado</li>
-			        <li>Experimentos y pruebas A/B</li>
-			    	<li>Inteligencia artificial y predictiva</li></ul>
+	        		<a style="text-decoration: none; color: black;" href="#educ" onclick="hideConsulting('consulting-educ')"><h3>Agentes educativos <span class="material-icons md-36 md-dark"><i class="fa fa-angle-down"></i></h3></a>
+	        		<div id="consulting-educ">
+				        <ul><li><b>Co-diseño de estrategias educativas</b> para museos, colegios y actores independientes</li>
+				        <li><b>Medición y estudio</b> de experiencias y objetivos de aprendizaje para su refinamiento</li>
+				        <li>Diseño y desarrollo <b>tecnológico y pedagógico</b> para potenciar el impacto educativo </li>
+				    	</ul>
+			    	</div>
 	        	</div>
 	        	<div class="col-md-6"></div>
 	        </div>
 
-	        <div class="row">
+	        <div class="row" id="funda">
 	        	<div class="col-md-6">
 	        		
 	        	</div>
 	        	<div class="col-md-6">
-	        		<h3>Diseño centrado en humanos</h3>
-			        <ul><li>Ejecución de talleres de campo</li>
-			        <li>Interacción con las comunidades</li>
-			    	<li>Prototipado secuencial y validado</li></ul>
+	        		<a style="text-decoration: none; color: black;" href="#funda" onclick="hideConsulting('consulting-fund')"><h3>Fundaciones <span class="material-icons md-36 md-dark"><i class="fa fa-angle-down"></i></h3></a></h3>
+	        		<div id="consulting-fund">
+				        <ul><li>Diseño y <b>desarrollo estratégico de tecnología</b> para la aproximación a problemas sociales</li>
+				        <li>Análisis y <b>estudios de contexto para motivación de proyectos</b> con estadísticas locales, marcos regulatorios, literatura y referentes</li></ul>
+			    	</div>
 	        	</div>
 	        </div>
 
-	        <div class="row">
+	        <div class="row" id="emp">
 	        	
 	        	<div class="col-md-6">
-	        		<h3>Creación</h3>
-			        <ul><li>Desarrollo de software y hardware</li>
-			        <li>Refinamiento de procesos</li>
-			    	<li>Optimización de canales internos</li></ul>
+	        		<a style="text-decoration: none; color: black;" href="#emp" onclick="hideConsulting('consulting-empresas')"><h3>Empresas <span class="material-icons md-36 md-dark"><i class="fa fa-angle-down"></i></h3></a>
+	        		<div id="consulting-empresas">
+				        <ul><li>Innovación estratégica para la <b>optimización y escalabilidad</b> de valor en etapas de crecimiento</li>
+				        <li>Co-diseño y refinamiento de <b>experiencia de usuario</b></li>
+				    	<li>Desarrollo y prototipado de <b>nuevas líneas de producto y servicio</b> para empresas en etapa de madurez</li></ul>
+			    	</div>
 	        	</div>
 
 	        	<div class="col-md-6">
 	        		
 	        	</div>
 	        </div>
+	        <hr>
+
+	        <p>Nuestras actividades y proyectos se desarrollan con un <b>alto nivel de personalización</b>. Diseñamos las especificaciones de los proyectos según las características de cada reto y presupuesto. Revise <a href="#princ">nuestros principios</a> para hacerse una idea de nuestros valores de trabajo.</p>
 
 	        <div class="row text-center">
 	        	<div class="col-md-12">
+	        		
 	        		<a style="margin:2em;"href="#footer" class="btn btn-secondary">Tengamos una reunión</a>
 	        	</div>
 		    </div>
@@ -310,9 +322,7 @@
 	      	<h1 style="font-family: 'Bodoni Moda', serif;" >Intervención social</h1>
 	        <p>Tenemos un profundo compromiso con que nuestra capacidad de crear ideas y desarrollar herramientas beneficie a personas en distintas condiciones de vulnerabilidad.</p>
 	        <p>Una de nuestras especialidades es conectar con las comunidades, hacer trabajo de campo y generar empatía.</p>
-	        <p>Hacemos trabajo pro-bono en apoyo a fundaciones, pequeñas organizaciones y comunidades. Si usted considera que es elegible como beneficiario/a, porque lidera una causa o un reto sobre el cual el diseño podría impactar por favor escríbanos un correo.</p>
-
-	        <p><b>Nota:</b> En este momento, nuestra plaza pro-bono está ocupada con un proyecto emocionante en la Guajira. Sin embargo, bien pueda contactarnos y contarnos su historia para futuro.</p>
+	        <p>Hacemos trabajo <b>pro-bono</b> en apoyo a pequeñas organizaciones y comunidades <u>que no tienen la posibilidad de contratar nuestros servicios</u>. Hay un número limitado de plazas pro-bono que podemos desarrollar a la vez. Si usted considera que es elegible como beneficiario/a, porque lidera una causa o un reto sobre el cual el diseño y la innovación podrían impactar por favor escríbanos un correo.</p>
 	      </div>
 	    </div>
 	  </div>
@@ -380,6 +390,7 @@
 				</div>
 
 				<h1 class="ph1 text-center">Cómo entendemos al diseño</h1>
+				<h3 class="ph1 text-center">Nuestra filosofía</h3>
 
 				<h2 class="ph2 ph3 ph4 ph5 ph6 ph7 ph8 ph9 ph10 ph11 ph12">Nuestro manifiesto</h2>
 				
