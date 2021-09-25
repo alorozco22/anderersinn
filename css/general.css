@@ -62,7 +62,16 @@ p {
 /* Smaller than medium */
 @media (max-width: 767px) {
 
- 
+  .logo-abs {
+    display: none;
+  }
+  
+  .insta-zuhause{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3em;
+  }
   .li-principios {
    line-height: 1.5em;
   }

@@ -41,6 +41,7 @@ header .overlay {
 .header-logo {
   width: 30%;
 }
+
 .head-img {
   display: none;
 }
@@ -67,8 +68,8 @@ header .overlay {
     position: absolute;
     height:100vh;
     display: block;
-    left:-100px;
-    animation: move 45s infinite;
+    left:-100%;
+    /*animation: move 45s infinite;*/
   }
 
 

@@ -12,10 +12,15 @@ window.onload = function(){
 }
 
 function hideConsulting(pID) {
-  var x = document.getElementById(pID);
+  let x = document.getElementById(pID);
+  let w = 'fa-';
+  let y = document.getElementById(w.concat(pID));
+  console.log(y);
   if (x.style.display === "none") {
     x.style.display = "block";
+    y.className = "fa fa-angle-up";
   } else {
     x.style.display = "none";
+    y.className = "fa fa-angle-down";;
   }
 }

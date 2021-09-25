@@ -1,5 +1,5 @@
 function cuidamos() {
-	document.getElementById('principio').innerHTML = "<span class='ph-emphasis'>Nos importa lo que para las personas es importante</span>. Procuramos apropiarnos de sus valores y hacer transiciones significativas desde el momento inicial hasta el diseño final."
+	document.getElementById('principio').innerHTML = "<span class='ph-emphasis'>La vida es maravillosa, aunque tenga puntas afiladas</span>. Muchos dolores en la vida ocurren por coincidencia, los sistemas no nacen pensados para seres humanos o animales. En Anderer Sinn, todo diseño tiene a alguna persona en mente."
 }
 
 function interd() {
