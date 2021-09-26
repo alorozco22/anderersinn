@@ -57,20 +57,22 @@ header .overlay {
 @media (pointer: coarse) and (hover: none) {
 
   header {
-    background: none;
+    /*background: none;*/
+    background-image: url("https://github.com/alorozco22/anderersinn/blob/master/img/header2.jpg?raw=true");
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
+
   }
-  
+  /**
   .head-img {
     z-index: 0;
     position: absolute;
     height:100vh;
     display: block;
     left:-100%;
-    /*animation: move 45s infinite;*/
-  }
+    animation: move 45s infinite;
+  }*/
 
 
 
@@ -92,5 +94,5 @@ header .overlay {
 }
 @-webkit-keyframes move{
     50%  {left: -500px;}
-}​
+}
 
