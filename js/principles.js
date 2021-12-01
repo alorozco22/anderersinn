@@ -1,5 +1,5 @@
 function cuidamos() {
-	document.getElementById('principio').innerHTML = "<span class='ph-emphasis'>La vida es maravillosa, aunque tenga puntas afiladas</span>. Muchos dolores en la vida ocurren por coincidencia, los sistemas no nacen pensados para seres humanos o animales. En Anderer Sinn, todo diseño tiene a alguna persona en mente."
+	document.getElementById('principio').innerHTML = "<span class='ph-emphasis'>La vida puede lastimar a las personas</span>. La estructura de los sistemas sociales, poíticos, económicos, etc. puede afectar a los individuos inintencionalmente. En Anderer Sinn, estamos comprometidos con escuchar y apropiarnos de los valores y condiciones de las personas."
 }
 
 function interd() {
