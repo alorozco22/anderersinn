@@ -1,5 +1,5 @@
 function cuidamos() {
-	document.getElementById('principio').innerHTML = "<span class='ph-emphasis'>La vida puede lastimar a las personas</span>. La estructura de los sistemas sociales, poíticos, económicos, etc. puede afectar a los individuos inintencionalmente. En Anderer Sinn, estamos comprometidos con escuchar y apropiarnos de los valores y condiciones de las personas."
+	document.getElementById('principio').innerHTML = "<span class='ph-emphasis'>La vida puede lastimar a las personas</span>. La estructura de los sistemas sociales, políticos, económicos, etc. puede afectar a los individuos inintencionalmente. En Anderer Sinn, estamos comprometidos con escuchar y apropiarnos de los valores y condiciones de las personas."
 }
 
 function interd() {
