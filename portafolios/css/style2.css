@@ -7,8 +7,11 @@
 /************** SLIDE 3 **************/
 
 
-
 /* 1. CONFIGURACIONES INCIALES */
+
+.containerBubble2 h1 {
+	font-size: 40px;
+}
 
 .containerBubble2 {
 	position: absolute;
