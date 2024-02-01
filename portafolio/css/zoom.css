@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+.zoom {
+  padding: 50px;
+  background-image: url("../img/path1.png");
+  animation: floatLogo 3s ease-in-out infinite;
+  transition: transform .2s;
+  width: 408px;
+  height: 259px;
+  position: absolute;
+  right: 300px;
+  top:20px;
+
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+
+
+.zoom2 {
+  padding: 50px;
+  background-image: url("../img/path2.png");
+  animation: floatLogo 2s ease-in-out infinite;
+  transition: transform .2s;
+  width: 382px;
+  height: 224px;
+  position: absolute;
+  top:80vh;
+  left: 100px;
+}
+
+.title {
+  position: absolute;
+  height: 80vh;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+

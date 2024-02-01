@@ -1,0 +1,358 @@
+body {
+	
+	margin: 0;
+	padding: 0;
+}
+p {
+	color:white;
+}
+
+#container {
+	width: 100%;
+	height: 600vh;
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(40,30,10,1) 61%, rgba(24,18,6,1) 100%);
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-5px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+@keyframes floatLogo {
+	0% {
+		box-shadow: none;
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: none;
+		transform: translatey(-5px);
+	}
+	100% {
+		box-shadow: none;
+		transform: translatey(0px);
+	}
+}
+
+.icon {
+
+	margin: 10px;
+	
+	width: 32px;
+	height: 32px;
+	box-sizing: border-box;
+	/*overflow: hidden;*/
+	position: fixed;
+	top:10px;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 5s ease-in-out infinite;
+	img { width: 100%; height: auto; }
+	
+}
+
+.logo {
+	margin: 20px;
+	
+	width: 110px;
+	height: 32px;
+	/*overflow: hidden;*/
+	position: fixed;
+	right: 10px;
+	transform: translatey(0px);
+	animation: floatLogo 5s ease-in-out infinite;
+	img { width: 100%; height: auto; }
+}
+
+.contact {
+	position:fixed;
+	width: 100%;
+	bottom: 0px;
+	text-align: center;
+}
+.contact p{
+	color:lightgrey;
+}
+
+.cierre {
+	display: flex;
+  	justify-content: center;
+	width: 100%;
+	position: relative;
+	top: 390vh;
+}
+.endImg {
+	width: 30%;
+	position: relative;
+	
+	
+	
+}
+
+
+/**************************************
+
+	ESTILOS DE LA PRESENTACIÓN
+
+**************************************/
+
+/************** SLIDE 1 **************/
+h1 {
+	color:white;
+	font-family: 'Bodoni Moda', serif;
+	font-size: 50px;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	margin: auto;
+}
+
+/************** SLIDE 2 **************/
+
+h2 {
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	text-align: left;
+	/*top: 10px;
+	left:20px;*/
+	position: absolute;
+}
+
+h3 {
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	text-align: left;
+	/*top: 10px;
+	left:20px;*/
+	position: absolute;
+}
+
+/* 1. CONFIGURACIONES INCIALES */
+
+.containerBubble1 {
+	position: relative;
+	width: 30%;
+	height: 50vh;
+	/*border: solid white;*/
+	top:170vh;
+}
+
+.subtitle1, .subtitle1a, .subtitle1b{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	background-color: white;
+	border-radius: 50%;	
+}
+
+.decoration1 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background-color: white;
+	border-radius: 50%;	
+}
+
+.decoration2 {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background-color: white;
+	border-radius: 50%;	
+}
+
+.decoration1 {
+	top:400px;
+	right:-800px;
+	animation: floatLogo 3s ease-in-out infinite;
+}
+
+.decoration2 {
+	top:370px;
+	right:-600px;
+	animation: floatLogo 2s ease-in-out infinite;
+}
+
+.subtitle1 {
+	top:10px;
+	left:70px;
+	animation: floatLogo 4s ease-in-out infinite;
+}
+
+.subtitle1a {
+	top:80px;
+	left:40px;
+	animation: floatLogo 3s ease-in-out infinite;
+	
+}
+
+.subtitle1b {
+	top:40px;
+	left:160px;
+	animation: floatLogo 5s ease-in-out infinite;
+}
+
+.subtitulo1 {
+	position: absolute;
+	top:50px;
+	left:130px;
+}
+
+.slide1 {
+	border:solid 1px white;
+	border-radius: 5px;
+	position: absolute;
+	width: 640px; /*1920x1080*/
+	height: 360px;
+	top: -40px;
+	right: -800px;
+}
+
+.content1 {
+	opacity: 0;
+} 
+
+/* 2. CABLEANDO ANIMACIONES */
+
+.containerBubble1:hover > .subtitle1 {
+	animation: open1 1s forwards;
+}
+.containerBubble1:hover > .subtitle1a {
+	animation: open1a 1s forwards;
+}
+.containerBubble1:hover > .subtitle1b {
+	animation: open1b 1s forwards;
+}
+
+.containerBubble1 > .subtitle1 {
+	animation: close1 1s forwards;
+}
+.containerBubble1 > .subtitle1a {
+	animation: close1a 1s forwards;
+}
+.containerBubble1 > .subtitle1b {
+	animation: close1b 1s forwards;
+}
+
+
+
+.slide1:hover > .content1 {
+	animation: fadein 1s forwards;
+}
+
+.slide1 > .content1 {
+	animation: fadeout 1s forwards;
+}
+
+/* 3. DEFINIENDO ANIMACIONES */
+
+
+@keyframes open1 {
+	0% {
+		top:10px;
+		left:70px;
+	}
+	100% {
+		top:-140px;
+		left:60px;
+	}
+}
+
+@keyframes open1a {
+	0% {
+		top:80px;
+		left:40px;
+	}
+	100% {
+		top:170px;
+		left:10px;
+	}
+}
+
+@keyframes open1b {
+	0% {
+		top:40px;
+		left:160px;
+	}
+	100% {
+		top:65px;
+		left:400px;
+	}
+}
+
+
+@keyframes close1 {
+	0% {
+		top:-140px;
+		left:60px;
+	}
+	100% {
+		top:10px;
+		left:70px;
+	}
+}
+
+@keyframes close1a {
+	0% {
+		top:170px;
+		left:10px;
+	}
+	100% {
+		top:80px;
+		left:40px;
+		
+	}
+}
+
+@keyframes close1b {
+	0% {
+		top:65px;
+		left:400px;
+	}
+	100% {
+		top:40px;
+		left:160px;
+		
+	}
+}
+
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@keyframes fadeout {
+	0% {
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,211 @@
+/**************************************
+
+	ESTILOS DE LA PRESENTACIÓN
+
+**************************************/
+
+/************** SLIDE 3 **************/
+
+
+
+/* 1. CONFIGURACIONES INCIALES */
+
+.containerBubble2 {
+	position: absolute;
+	width: 30%;
+	height: 50vh;
+	/*border: solid white;*/
+	top:300vh;
+	right: 50px;
+	
+}
+
+.subtitle2, .subtitle2a, .subtitle2b{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	background-color: white;
+	border-radius: 50%;	
+}
+
+.decoration3 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background-color: white;
+	border-radius: 50%;	
+}
+
+.decoration4 {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background-color: white;
+	border-radius: 50%;	
+}
+
+.decoration3 {
+	top:300px;
+	left:-800px;
+	animation: floatLogo 3s ease-in-out infinite;
+}
+
+.decoration4 {
+	top:-50px;
+	left:-600px;
+	animation: floatLogo 2s ease-in-out infinite;
+}
+
+.subtitle2 {
+	top:10px;
+	left:-500px;
+	animation: floatLogo 4s ease-in-out infinite;
+}
+
+.subtitle2a {
+	top:80px;
+	left:-570px;
+	animation: floatLogo 3s ease-in-out infinite;
+	
+}
+
+.subtitle2b {
+	top:40px;
+	left:-400px;
+	animation: floatLogo 5s ease-in-out infinite;
+}
+
+.subtitulo2 {
+	position: absolute;
+	top:50px;
+	left:80px;
+}
+
+.slide2 {
+	border:solid 1px white;
+	border-radius: 5px;
+	position: absolute;
+	width: 640px; /*1920x1080*/
+	height: 360px;
+	top: -40px;
+	left: -700px;
+}
+
+.content2 {
+	opacity: 0;
+} 
+
+/* 2. CABLEANDO ANIMACIONES */
+
+.containerBubble2:hover > .subtitle2 {
+	animation: open2 1s forwards;
+}
+.containerBubble2:hover > .subtitle2a {
+	animation: open2a 1s forwards;
+}
+.containerBubble2:hover > .subtitle2b {
+	animation: open2b 1s forwards;
+}
+
+.containerBubble2 > .subtitle2 {
+	animation: close2 1s forwards;
+}
+.containerBubble2 > .subtitle2a {
+	animation: close2a 1s forwards;
+}
+.containerBubble2 > .subtitle2b {
+	animation: close2b 1s forwards;
+}
+
+
+
+.slide2:hover > .content2 {
+	animation: fadein 1s forwards;
+}
+
+.slide2 > .content2 {
+	animation: fadeout 1s forwards;
+}
+
+/* 3. DEFINIENDO ANIMACIONES */
+
+
+@keyframes open2 {
+	0% {
+		top:10px;
+		left:70px;
+	}
+	100% {
+		top:-140px;
+		left:100px;
+	}
+}
+
+@keyframes open2a {
+	0% {
+		top:80px;
+		left:40px;
+	}
+	100% {
+		top:170px;
+		left:-90px;
+		
+	}
+}
+
+@keyframes open2b {
+	0% {
+		top:40px;
+		left:160px;
+	}
+	100% {
+		top:65px;
+		left:50px;
+		background-color: sienna;
+	}
+}
+
+
+@keyframes close2 {
+	0% {
+		top:-140px;
+		left:100px;
+	}
+	100% {
+		top:10px;
+		left:70px;
+	}
+}
+
+@keyframes close2a {
+	0% {
+		top:170px;
+		left:-90px;
+		
+	}
+	100% {
+		top:80px;
+		left:40px;
+		
+	}
+}
+
+@keyframes close2b {
+	0% {
+		top:65px;
+		left:50px;
+		background-color: sienna;
+	}
+	100% {
+		top:40px;
+		left:160px;
+		
+	}
+}
+
+
+
+
+
+
+
