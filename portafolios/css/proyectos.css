@@ -1,17 +1,28 @@
-.proyecto-agencia {
-	border:none;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 50%;
-	height: 100vh;
-}
-
 .proyecto-apata {
 	border:none;
 	position: absolute;
 	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+}
+
+
+
+.proyecto-sofi {
+	border:none;
+	position: absolute;
+	top: 0;
 	right: 0;
-	width: 50%;
+	width: 100%;
+	height: 100vh;
+}
+
+.proyecto-vitruvio {
+	border:none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
 	height: 100vh;
 }

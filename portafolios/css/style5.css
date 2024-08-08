@@ -9,11 +9,11 @@
 
 /* 1. CONFIGURACIONES INCIALES */
 
-.containerBubble3 h1 {
+.containerBubble5 h1 {
 	font-size: 40px;
 }
 
-.containerBubble3 {
+.containerBubble5 {
 	position: relative;
 	width: 30%;
 	height: 100vh;
@@ -21,7 +21,7 @@
 	top:350vh;
 }
 
-.subtitle3, .subtitle3a, .subtitle3b{
+.subtitle5, .subtitle5a, .subtitle5b{
 	width: 200px;
 	height: 200px;
 	position: absolute;
@@ -29,7 +29,7 @@
 	border-radius: 50%;	
 }
 
-.decoration5 {
+.decoration9 {
 	width: 50px;
 	height: 50px;
 	position: absolute;
@@ -37,7 +37,7 @@
 	border-radius: 50%;	
 }
 
-.decoration6 {
+.decoration10 {
 	width: 30px;
 	height: 30px;
 	position: absolute;
@@ -45,44 +45,44 @@
 	border-radius: 50%;	
 }
 
-.decoration5 {
+.decoration9 {
 	top:300px;
 	right:-800px;
 	animation: floatLogo 3s ease-in-out infinite;
 }
 
-.decoration6 {
+.decoration10 {
 	top:-10px;
 	right:-600px;
 	animation: floatLogo 2s ease-in-out infinite;
 }
 
-.subtitle3 {
+.subtitle5 {
 	top:10px;
 	left:70px;
 	animation: floatLogo 4s ease-in-out infinite;
 }
 
-.subtitle3a {
+.subtitle5a {
 	top:80px;
 	left:40px;
 	animation: floatLogo 3s ease-in-out infinite;
 	
 }
 
-.subtitle3b {
+.subtitle5b {
 	top:40px;
 	left:160px;
 	animation: floatLogo 5s ease-in-out infinite;
 }
 
-.subtitulo3 {
+.subtitulo5 {
 	position: absolute;
 	top:50px;
 	left:130px;
 }
 
-.slide3 {
+.slide5 {
 	border:solid 1px white;
 	border-radius: 5px;
 	position: absolute;
@@ -92,12 +92,12 @@
 	right: -800px;
 }
 
-.content3 {
+.content5 {
 	opacity: 0;
 } 
 
 
-.recargar-proyecto1 {
+.recargar-proyecto3 {
 	background-color: white;
 	width: 30px;
 	height: 30px;
@@ -109,50 +109,47 @@
 
 }
 
-
-}
-
-.recargar-proyecto1 {
+.recargar-proyecto3 {
 	background-color: white;
 	
 }
 
 /* 2. CABLEANDO ANIMACIONES */
 
-.containerBubble3:hover > .subtitle3 {
-	animation: open3 1s forwards;
+.containerBubble5:hover > .subtitle5 {
+	animation: open5 1s forwards;
 }
-.containerBubble3:hover > .subtitle3a {
-	animation: open3a 1s forwards;
+.containerBubble5:hover > .subtitle5a {
+	animation: open5a 1s forwards;
 }
-.containerBubble3:hover > .subtitle3b {
-	animation: open3b 1s forwards;
-}
-
-.containerBubble3 > .subtitle3 {
-	animation: close3 1s forwards;
-}
-.containerBubble3 > .subtitle3a {
-	animation: close3a 1s forwards;
-}
-.containerBubble3 > .subtitle3b {
-	animation: close3b 1s forwards;
+.containerBubble5:hover > .subtitle5b {
+	animation: open5b 1s forwards;
 }
 
+.containerBubble5 > .subtitle5 {
+	animation: close5 1s forwards;
+}
+.containerBubble5 > .subtitle5a {
+	animation: close5a 1s forwards;
+}
+.containerBubble5 > .subtitle5b {
+	animation: close5b 1s forwards;
+}
 
 
-.slide3:hover > .content3 {
+
+.slide5:hover > .content5 {
 	animation: fadein 1s forwards;
 }
 
-.slide3 > .content3 {
+.slide5 > .content5 {
 	animation: fadeout 1s forwards;
 }
 
 /* 3. DEFINIENDO ANIMACIONES */
 
 
-@keyframes open3 {
+@keyframes open5 {
 	0% {
 		top:10px;
 		left:70px;
@@ -164,7 +161,7 @@
 	}
 }
 
-@keyframes open3a {
+@keyframes open5a {
 	0% {
 		top:80px;
 		left:40px;
@@ -175,7 +172,7 @@
 	}
 }
 
-@keyframes open3b {
+@keyframes open5b {
 	0% {
 		top:40px;
 		left:160px;
@@ -187,7 +184,7 @@
 }
 
 
-@keyframes close3 {
+@keyframes close5 {
 	0% {
 		top:-100px;
 		left:60px;
@@ -199,7 +196,7 @@
 	}
 }
 
-@keyframes close3a {
+@keyframes close5a {
 	0% {
 		top:170px;
 		left:10px;
@@ -211,7 +208,7 @@
 	}
 }
 
-@keyframes close3b {
+@keyframes close5b {
 	0% {
 		top:-20px;
 		left:350px;
