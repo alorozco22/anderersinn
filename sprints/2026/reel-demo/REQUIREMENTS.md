@@ -1,0 +1,3 @@
+Create a beautiful, premium, responsive web application called NÓMADA, a digital marketplace connecting independent Colombian designers and local artisans with conscious consumers. Build a stunning editorial-style interface with a bold immersive hero section, beautiful product cards with large photography, categories for handmade fashion, ceramics, furniture and art, a curated collection section, elegant navigation, sophisticated typography, warm earthy colors and subtle animations. Make it feel like a real funded startup, not a generic template. Use modern frontend components and polished interactions.
+
+For now, prepare the front html template with sample data to demonstrate functionality when the backend is developed.

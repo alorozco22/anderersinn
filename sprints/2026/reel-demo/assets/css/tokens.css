@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("../fonts/fraunces-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Fraunces";
+  font-style: italic;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("../fonts/fraunces-italic-latin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url("../fonts/manrope-latin.woff2") format("woff2");
+}
+
+:root {
+  --bone: #f3eee4;
+  --bone-soft: #faf7f0;
+  --bone-deep: #e9e0d2;
+  --sand: #d8c5aa;
+  --sand-deep: #bca182;
+  --clay: #ae5637;
+  --clay-dark: #853c25;
+  --olive: #5c5a3d;
+  --olive-dark: #343526;
+  --ink: #221d18;
+  --ink-soft: #685c50;
+  --ink-faint: #918477;
+  --line: rgba(34, 29, 24, 0.16);
+  --line-light: rgba(243, 238, 228, 0.2);
+  --bone-line: rgba(243, 238, 228, 0.28);
+  --white: #fdfbf7;
+  --saffron: #d9a145;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "Manrope", "Helvetica Neue", Arial, sans-serif;
+  --container: 1440px;
+  --gutter: clamp(1.25rem, 4vw, 4.5rem);
+  --header-h: 88px;
+  --announce-h: 34px;
+  --radius-sm: 2px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-soft: cubic-bezier(0.16, 1, 0.3, 1);
+  --shadow-soft: 0 24px 60px rgba(34, 29, 24, 0.12);
+  --shadow-drawer: -24px 0 70px rgba(34, 29, 24, 0.18);
+}
