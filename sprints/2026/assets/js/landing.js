@@ -5,7 +5,7 @@
    * Formato: solo dígitos, con indicativo de país (57 para Colombia).
    * Ejemplo: "573001234567".
    */
-  const WHATSAPP_NUMBER = "573000000000";
+  const WHATSAPP_NUMBER = "573208757402";
   const WHATSAPP_MESSAGE =
     "Hola, me interesa el Sprint de diseño de producto tech. ¿Me puedes compartir información sobre las modalidades y los pasos para inscribirme?";
 
