@@ -1,0 +1,34 @@
+Semana,Enfoque_semanal,Modalidad,Tipo,Actividad,Detalles_observaciones
+1,Comunidades,Nota semanal,Enfoque,¿A quién puedo escuchar?,
+1,Comunidades,Asincrónico,Lab,Instalar stack: env.,La palabra «stack» parece estar tachada o corregida en la nota; transcripción aproximada.
+1,Comunidades,Asincrónico,Contenido,Human Centered Design,Método: Mindsets.
+1,Comunidades,Asincrónico,Lab,Crear cuenta GitHub,
+1,Comunidades,Asincrónico,Actividad autónoma,Mapa de actores conmigo en el centro,Primer contacto con mi comunidad. Pregunta guía: «¿A quién puedo escuchar?» 
+1,Comunidades,Sincrónico,Actividad acompañada,Contenedor: montar volumen y comandos Unix,
+1,Comunidades,Sincrónico,Contenido,Métodos de inspiración,Entrevista / Group Interview; observación y recorrido; Conversation Starters; Immersion; Secondary Research; Extremes & Mainstreams.
+2,Ideation & Front (portafolio),Nota semanal,Enfoque,"Investigar, sintetizar, definir",
+2,Ideation & Front (portafolio),Asincrónico,Lab,Introducción a HTML + JS,
+2,Ideation & Front (portafolio),Asincrónico,Lab,Introducción a Flutter,
+2,Ideation & Front (portafolio),Asincrónico,Actividad autónoma,Elaborar instrumento: recibir feedback,Preguntas guía: «¿Qué problemas tienen?» y «¿Quiénes son?»; Herramienta Persona.
+2,Ideation & Front (portafolio),Sincrónico,Actividad acompañada,Discusión ética en Diseño,Empathy Lab.
+2,Ideation & Front (portafolio),Sincrónico,Contenido,Agentes,Introducción a los Agentes vs LLMs. Usar agentes para desarrollar y usar agentes dentro de la solución.
+2,Ideation & Front (portafolio),Sincrónico,Lab,Lab HTML – OpenCode - GitHub Desktop,Inspeccionamos e interpretamos el código generado. Creamos un portafolio de proyecto. Versioning.
+3,Procesar ideas y prototipar,Nota semanal,Enfoque,"Idear, seleccionar, prototipar",
+3,Procesar ideas y prototipar,Asincrónico,Actividad autónoma,Aplicar instrumento,
+3,Procesar ideas y prototipar,Asincrónico,Actividad autónoma,Descargar información,
+3,Procesar ideas y prototipar,Asincrónico,Contenido,Metodologías de ideación,Download learnings: Brainstorm; Bundle & Themes; Rapid prototyping
+3,Procesar ideas y prototipar,Sincrónico,Actividad acompañada,Rapid prototyping,"Cómo prototipar apps (SDK de flutter, archivos apk): Front HTML / Flutter app "
+3,Procesar ideas y prototipar,Sincrónico,Actividad acompañada,Discusión: ética con IA,"Transparencia, privacidad, equidad y seguridad."
+4,Diseño responsable de prototipos,Nota semanal,Enfoque,"Integrar, prototipar, desplegar",
+4,Diseño responsable de prototipos,Asincrónico,Lab,Lab de bases de datos Supabase,
+4,Diseño responsable de prototipos,Asincrónico,Contenido,Cloud,"Aquí recursos, cuentas, budgets y escalabilidad horizontal vs vertical"
+4,Diseño responsable de prototipos,Asincrónico,Lab,Lab de una arquitectura para contenerizar servicio,Usaremos como caso de estudio un open-claw contenerizado vs un open claw dedicado localmente
+4,Diseño responsable de prototipos,Asincrónico,Contenido,Agentes & Markdown,
+4,Diseño responsable de prototipos,Asincrónico,Actividad autónoma,Poner prototipo FRONT frente a usuarios,
+4,Diseño responsable de prototipos,Sincrónico,Actividad acompañada,Prototipar también nos deja aprendizajes sobre riesgos,Experiencia exploit.
+4,Diseño responsable de prototipos,Sincrónico,Contenido,Fundamentos de seguridad,Minimización de datos; frontera cliente-servidor; autenticación y autorización; gestión de secretos; validación y almacenamiento.
+4,Diseño responsable de prototipos,Sincrónico,Lab,Security Lifecycle,Auditar con IA; interpretar; corregir; verificar.
+4,Diseño responsable de prototipos,Sincrónico,Contenido,Mantenimiento de producto,La secuencia del Security Lifecycle abre una conclusión sobre el mantenimiento del producto.
+5,"Comunicar, reflexionar",Nota semanal,Enfoque,"Comunicar, reflexionar",
+5,"Comunicar, reflexionar",Asincrónico,Actividad autónoma,Preparar demo para EXPO,
+5,"Comunicar, reflexionar",Asincrónico,Actividad autónoma,Cargar a portafolio el proceso,

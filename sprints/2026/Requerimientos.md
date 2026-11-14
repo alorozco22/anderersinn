@@ -441,4 +441,4 @@ Al finalizar, informar:
 El desarrollo de este encargo debe quedar en sprints/2026/
 
 ## 19. Assets
-Encontrarás un video en la carpeta assets dentro de la ubicación del sitio que es como el reel de instagram que invita al curso. Está en formato vertical. Si crees que te sirve lo puedes usar, o bien si crees que sobra lo puedes omitir. Dura 50 segundos y tiene dimensiones 1080x1920. Ya lo optimice para web usando ffmpeg. Se llama salida_web.mp4.
+Encontrarás un video en la carpeta assets dentro de la ubicación del sitio que es como el reel de instagram que invita al curso. Está en formato vertical. Si crees que te sirve lo puedes usar, o bien si crees que sobra lo puedes omitir. Dura 50 segundos y tiene proporciones de 1080x1920 que es reel de instagram. Ya lo optimice para web usando ffmpeg. Se llama salida_web.mp4.

@@ -24,6 +24,72 @@
   <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/landing.css">
 
+  <style>
+    #curriculo .week__question {
+      margin-bottom: 0;
+    }
+
+    #curriculo .week__activities {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
+      gap: 0.9rem;
+      margin: 1.2rem 0;
+    }
+
+    #curriculo .week__activity-group {
+      padding: 0.95rem 1rem;
+      border: 1px solid var(--line-light);
+      background: rgba(245, 240, 231, 0.035);
+    }
+
+    #curriculo .week__activity-group h3 {
+      margin: 0 0 0.55rem;
+      color: var(--sand);
+      font-family: var(--sans);
+      font-size: 0.56rem;
+      font-weight: 800;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    #curriculo .week__activity-group ul {
+      display: grid;
+      gap: 0.4rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    #curriculo .week__activity-group li {
+      position: relative;
+      padding-left: 0.9rem;
+      color: rgba(245, 240, 231, 0.72);
+      font-size: 0.82rem;
+      line-height: 1.55;
+    }
+
+    #curriculo .week__activity-group li::before {
+      position: absolute;
+      top: 0.62em;
+      left: 0;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: var(--clay-light);
+      content: "";
+    }
+
+    #curriculo .week__deliverable {
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 720px) {
+      #curriculo .week__activities {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
   <script src="assets/js/landing.js" defer></script>
 </head>
 <body>
@@ -93,7 +159,7 @@
             </div>
             <div>
               <dt>Sesiones</dt>
-              <dd>Jueves, 6:00–8:30 p. m.<span>hora Colombia</span></dd>
+              <dd>Sábado, 8:00–10:30 a. m.<span>hora Colombia</span></dd>
             </div>
             <div>
               <dt>Cierre</dt>
@@ -231,7 +297,7 @@
           </li>
           <li>
             <span class="outcome-num">04</span>
-            <h3>Una interfaz web navegable</h3>
+            <h3>Una interfaz navegable</h3>
             <p>Para probar la experiencia antes de construir un backend.</p>
           </li>
           <li>
@@ -262,7 +328,7 @@
         <div class="curriculum__intro">
           <p class="eyebrow">Currículo público</p>
           <h2 id="curriculo-title">Cinco semanas para pasar de la pregunta a la demostración.</h2>
-          <p>Cada semana combina una pregunta guía, trabajo autónomo, acompañamiento y un entregable. El currículo es exigente, pero está acotado: no se trata de aprender todas las herramientas, sino de tomar buenas decisiones de producto.</p>
+          <p>Cada semana combina un objetivo, actividades en vivo y autónomas, y un entregable. El currículo es exigente, pero está acotado: no se trata de aprender todas las herramientas, sino de tomar buenas decisiones de producto.</p>
           <div class="curriculum__meta" aria-label="Resumen del programa">
             <span><strong>5</strong> semanas</span>
             <span><strong>34 h</strong> de dedicación</span>
@@ -278,13 +344,28 @@
               <span class="week__icon" aria-hidden="true"></span>
             </summary>
             <div class="week__body">
-              <p class="week__question"><span>Pregunta guía</span> ¿A quién puedo escuchar y qué necesidad merece investigarse?</p>
-              <p>Delimitarás una comunidad concreta, reconocerás su contexto y prepararás una investigación respetuosa sin asumir de antemano cuál es la solución. Aprenderás a formular preguntas abiertas, identificar barreras de acceso y preparar un instrumento de inspiración con consentimiento y minimización de datos.</p>
-              <div class="week__deliverable">
-                <h3>Lo que producirás</h3>
-                <p>Perfil de comunidad, mapa inicial de actores, instrumento de investigación, protocolo de consentimiento y primer contacto preparado para la semana siguiente. También dejarás listo tu entorno de trabajo con agentes de desarrollo.</p>
+              <p class="week__question"><span>Objetivo de la semana</span> Aprender a escuchar a una comunidad y preparar tu entorno y tus métodos de inspiración antes de salir a campo.</p>
+              <div class="week__activities">
+                <div class="week__activity-group">
+                  <h3>En vivo</h3>
+                  <ul>
+                    <li>Montar el contenedor con volumen y comandos Unix.</li>
+                    <li>Explorar métodos de inspiración: entrevista, observación y recorrido, Conversation Starters, Immersion, Secondary Research y Extremes &amp; Mainstreams.</li>
+                  </ul>
+                </div>
+                <div class="week__activity-group">
+                  <h3>Autónomo</h3>
+                  <ul>
+                    <li>Instalar el entorno de trabajo y crear tu cuenta de GitHub.</li>
+                    <li>Construir el mapa de actores conmigo en el centro.</li>
+                    <li>Introducción al Human Centered Design y sus mindsets.</li>
+                  </ul>
+                </div>
               </div>
-              <p class="week__idea"><span>Idea clave</span> “Make it exist first, make it good later”. Introduciremos a las nociones del diseño centrado en las personas y conversaremos sobre la experimentación siempre de manera ética respetando la privacidad, la seguridad y a las personas participantes.</p>
+              <div class="week__deliverable">
+                <h3>Entregable</h3>
+                <p>Mapa de actores y entorno de trabajo listo.</p>
+              </div>
             </div>
           </details>
 
@@ -295,13 +376,28 @@
               <span class="week__icon" aria-hidden="true"></span>
             </summary>
             <div class="week__body">
-              <p class="week__question"><span>Pregunta guía</span> ¿Qué sabemos de la comunidad y qué reto merece convertirse en una oportunidad de diseño?</p>
-              <p>Aplicarás el instrumento de investigación y contrastarás tus intuiciones iniciales con evidencia de la comunidad. Revisarás supuestos sobre quién vive la situación, cuándo y con qué frecuencia ocurre, qué tan relevante es, cómo se resuelve hoy y qué recursos o barreras existen: dispositivo, conectividad, lenguaje, accesibilidad y confianza.</p>
-              <div class="week__deliverable">
-                <h3>Lo que producirás</h3>
-                <p>Registro de campo anonimizado, síntesis cualitativa, entre tres y cinco insights priorizados y uno o dos retos formulados como “¿Cómo podríamos…?”. Crearás también una ficha anónima de proyecto para tu portafolio.</p>
+              <p class="week__question"><span>Objetivo de la semana</span> Formular y afinar el instrumento de investigación mientras das tus primeros pasos en HTML, JavaScript y Flutter con agentes.</p>
+              <div class="week__activities">
+                <div class="week__activity-group">
+                  <h3>En vivo</h3>
+                  <ul>
+                    <li>Discusión de ética en diseño con un Empathy Lab.</li>
+                    <li>Introducción a los agentes vs. LLMs y cómo usarlos para desarrollar y dentro de la solución.</li>
+                    <li>Lab de HTML con OpenCode y GitHub Desktop: leer el código generado, crear el portafolio del proyecto y versionar.</li>
+                  </ul>
+                </div>
+                <div class="week__activity-group">
+                  <h3>Autónomo</h3>
+                  <ul>
+                    <li>Elaborar el instrumento de investigación y recibir retroalimentación: herramienta Persona, «¿qué problemas tienen?» y «¿quiénes son?».</li>
+                    <li>Introducción a HTML + JS y a Flutter.</li>
+                  </ul>
+                </div>
               </div>
-              <p class="week__idea"><span>Idea clave</span> Separar hechos observados, interpretaciones y supuestos aún no comprobados.</p>
+              <div class="week__deliverable">
+                <h3>Entregable</h3>
+                <p>Instrumento revisado, portafolio inicial y primer front.</p>
+              </div>
             </div>
           </details>
 
@@ -312,13 +408,27 @@
               <span class="week__icon" aria-hidden="true"></span>
             </summary>
             <div class="week__body">
-              <p class="week__question"><span>Pregunta guía</span> ¿Qué idea merece ponerse a prueba y cómo se comporta el flujo antes de conectarlo a un backend?</p>
-              <p>Explorarás alternativas, agruparás y combinarás ideas, elegirás un concepto con criterios explícitos y diseñarás una tarea principal. Construirás una fachada web navegable con HTML, CSS y JavaScript, utilizando datos ficticios para simular una experiencia sin añadir infraestructura antes de necesitarla.</p>
-              <div class="week__deliverable">
-                <h3>Lo que producirás</h3>
-                <p>Concepto priorizado, principios de diseño, storyboard o flujo de una tarea, prototipo navegable y registro de pruebas de usabilidad con los cambios que esas pruebas sugieren.</p>
+              <p class="week__question"><span>Objetivo de la semana</span> Aplicar el instrumento, convertir los hallazgos en ideas y prototipar la experiencia que vas a probar.</p>
+              <div class="week__activities">
+                <div class="week__activity-group">
+                  <h3>En vivo</h3>
+                  <ul>
+                    <li>Rapid prototyping de apps: SDK de Flutter, archivos APK y front en HTML/Flutter.</li>
+                    <li>Discusión de ética con IA: transparencia, privacidad, equidad y seguridad.</li>
+                  </ul>
+                </div>
+                <div class="week__activity-group">
+                  <h3>Autónomo</h3>
+                  <ul>
+                    <li>Aplicar el instrumento y descargar la información.</li>
+                    <li>Metodologías de ideación: Brainstorm, Bundle &amp; Themes y Rapid Prototyping.</li>
+                  </ul>
+                </div>
               </div>
-              <p class="week__idea"><span>Idea clave</span> Probar primero la comprensión y la experiencia. Poner algo delante del usuario nos enseña más que esperar a tener un producto perfecto y terminado.</p>
+              <div class="week__deliverable">
+                <h3>Entregable</h3>
+                <p>Registro de campo, ideas priorizadas y prototipo rápido.</p>
+              </div>
             </div>
           </details>
 
@@ -329,13 +439,32 @@
               <span class="week__icon" aria-hidden="true"></span>
             </summary>
             <div class="week__body">
-              <p class="week__question"><span>Pregunta guía</span> ¿Qué funcionalidad mínima necesitamos para sostener el flujo que las pruebas respaldaron?</p>
-              <p>Convertirás el prototipo en una demostración mínimamente funcional. Elegirás una arquitectura adecuada al proyecto e integrarás únicamente los servicios necesarios. Aprenderás a trabajar con datos ficticios, credenciales, permisos, privacidad y despliegue.</p>
-              <div class="week__deliverable">
-                <h3>Lo que producirás</h3>
-                <p>Un flujo vertical funcional y verificable, un modelo mínimo de datos cuando haga falta, una demo desplegada o ejecutable y una revisión de privacidad, seguridad básica y accesibilidad.</p>
+              <p class="week__question"><span>Objetivo de la semana</span> Integrar datos y servicios, probar el prototipo con usuarios y revisar su seguridad antes de desplegarlo.</p>
+              <div class="week__activities">
+                <div class="week__activity-group">
+                  <h3>En vivo</h3>
+                  <ul>
+                    <li>Riesgos y experiencia exploit.</li>
+                    <li>Fundamentos de seguridad: minimización de datos, frontera cliente-servidor, autenticación y autorización, gestión de secretos, validación y almacenamiento.</li>
+                    <li>Security Lifecycle: auditar con IA, interpretar, corregir y verificar.</li>
+                    <li>Mantenimiento de producto a partir de lo aprendido en seguridad.</li>
+                  </ul>
+                </div>
+                <div class="week__activity-group">
+                  <h3>Autónomo</h3>
+                  <ul>
+                    <li>Lab de bases de datos con Supabase.</li>
+                    <li>Cloud: recursos, cuentas, presupuestos y escalabilidad horizontal vs. vertical.</li>
+                    <li>Arquitectura contenerizada: caso open-claw contenerizado vs. dedicado local.</li>
+                    <li>Agentes &amp; Markdown.</li>
+                    <li>Poner el prototipo front frente a usuarios.</li>
+                  </ul>
+                </div>
               </div>
-              <p class="week__idea"><span>Idea clave</span> Un prototipo funcional no es automáticamente un producto listo para producción. Pero con ese ya nos lanzamos a vender y a validar intención de compra para seguir refinando.</p>
+              <div class="week__deliverable">
+                <h3>Entregable</h3>
+                <p>Prototipo integrado, probado con usuarios y con revisión de seguridad.</p>
+              </div>
             </div>
           </details>
 
@@ -346,13 +475,26 @@
               <span class="week__icon" aria-hidden="true"></span>
             </summary>
             <div class="week__body">
-              <p class="week__question"><span>Pregunta guía</span> ¿Qué aprendimos, qué podemos demostrar y cómo invitamos a continuar?</p>
-              <p>Organizarás el proceso en una narrativa clara, actualizarás tu portafolio, prepararás un pitch y una micro-demostración. Compartirás el resultado en la EXPO presencial de cierre y recibirás retroalimentación.</p>
-              <div class="week__deliverable">
-                <h3>Lo que producirás</h3>
-                <p>Portafolio actualizado, pitch de dos a tres minutos, demo, reflexión individual sobre el proceso y definición de un próximo experimento. La actividad opcional es un microdocumental de un minuto sobre el proceso, para publicar únicamente después de la EXPO y con los consentimientos y créditos correspondientes.</p>
+              <p class="week__question"><span>Objetivo de la semana</span> Convertir tu proceso y tu demo en una historia clara para la EXPO y tu portafolio.</p>
+              <div class="week__activities">
+                <div class="week__activity-group">
+                  <h3>En vivo</h3>
+                  <ul>
+                    <li>EXPO presencial: pitch, demostración y retroalimentación.</li>
+                  </ul>
+                </div>
+                <div class="week__activity-group">
+                  <h3>Autónomo</h3>
+                  <ul>
+                    <li>Preparar la demo para la EXPO.</li>
+                    <li>Cargar el proceso al portafolio.</li>
+                  </ul>
+                </div>
               </div>
-              <p class="week__idea"><span>Idea clave</span>Crear algo y ponerlo en el mundo deja un precedente. Sea porque las personas lo apropien y lo utilicen o por el aprendizaje del proceso de crear. No se es la misma persona antes y después de un proyecto de diseño. Se conoce más, se empatiza más, se actúa diferente.</p>
+              <div class="week__deliverable">
+                <h3>Entregable</h3>
+                <p>Demo para la EXPO y portafolio actualizado.</p>
+              </div>
             </div>
           </details>
         </div>
@@ -383,9 +525,9 @@
             <p>Avanzas a tu ritmo con contenidos digitales interactivos, videos breves y un ejercicio práctico para aplicar lo aprendido.</p>
           </li>
           <li class="method-card">
-            <span class="method-card__step">03 · Jueves</span>
+            <span class="method-card__step">03 · Sábado</span>
             <h3>Acompañamiento virtual</h3>
-            <p class="method-card__time">6:00 a 8:30 p. m. · Colombia</p>
+            <p class="method-card__time">8:00 a 10:30 a. m. · Colombia</p>
             <p>Compartimos avances, revisamos decisiones, hacemos clínicas técnicas, recibimos retroalimentación y definimos el siguiente paso.</p>
           </li>
           <li class="method-card method-card--expo">
